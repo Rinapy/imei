@@ -1,0 +1,11 @@
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+ADMIN_TG_ID = os.getenv('ADMIN_TG_ID')
+EXTERNAL_SERVICE_TOKEN = os.getenv('EXTERNAL_SERVICE_TOKEN')
+TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
+SECRET_KEY = os.getenv('SECRET_KEY')
+EXTERNAL_API_URL_CHECK = os.getenv('EXTERNAL_API_URL_CHECK')
+EXTERNAL_API_URL_AVB_SERVICES = os.getenv('EXTERNAL_API_URL_AVB_SERVICES')
